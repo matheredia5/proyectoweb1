@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="estilo8va.css">
+    <link rel="stylesheet" href="inicio.css">
+    <link rel="stylesheet" href="form.css">
+    <script type="text/javascript" src="validar.js"></script>
+
+    
+    <title>LA 8VA - SUSCRIBITE!</title>
+    
+</head>
+<body>
+    <header>        
+        <nav>
+            <div class="logo">
+                <a href="index.html"><img src="./img/logo.jpg" alt="Logo 8VA"></a>
+            </div>
+            <div class="redes">
+                <a href="https://www.instagram.com/laoctavamaravillacerveza/" target="_blank"><img src="./img/insta.png" alt="insta. 8VA"></a>
+            </div>
+            <ul class="menu">
+                <li><a href="estilos.html">ESTILOS</a></li>                    
+                
+                <li><a href="copacuyana.html">COPA CUYANA</a></li>                    
+                
+                <li><a href="suscribite.html">SUSCRIBITE!</a></li>                  
+                
+            </ul>  
+        </nav>        
+    </header> <br>
+    <section>
+        <h1>- SUSCRIBITE Y OBTENE BENEFICIOS EXCLUSIVOS! </h1> <br>
+        <div class="formul">
+            <div class="form">
+                <div class="titulos">
+                    <label for="nombre">Nombre:</label>
+                    <br><br>
+                    <label for="apellido">Apellido:</label>
+                    <br><br>
+                    <label for="edad">Edad:</label>
+                    <br><br>
+                    <label for="mail">E-mail:</label>
+                    <br><br>
+                    <label for="celu">Celular:</label>
+                    <br><br>                    
+                    <label for="slct2">¿Cual es tu estilo preferido? : </label>
+                    <br><br> <br>
+                    <label for="txt-a">¿Quieres dejarnos alguna <br> recomendacion? :</label>
+                    <br><br>
+                    
+                </div>
+                <div class="campos">
+                    <form name="datos" method="GET" action="#" enctype="text/plain">
+                        
+                        <input type="text" id="nombre" name="nombre"   placeholder="Esc. su nombre" class="normal">
+                        <br>
+                        <input type="text" id="apellido" name="apellido"  placeholder="Esc. su apellido" class="normal">
+                        <br>
+                        <input type="text" id="edad" name="edad"  placeholder="Ingrese su edad" class="normal">
+                        <br>
+                        <input type="text" id="mail" name="mail"  placeholder="Esc. su email" class="normal">
+                        <br>
+                        <input type="" id="celu" name="celu"   placeholder="Esc. su celular" class="normal">
+                        <br><br>
+                                               
+                        <select name="selectcerv" id="slct2">
+                            <option value="1">--Seleccione--</option>
+                            <option value="1">Satrapas</option>
+                            <option value="1">Babilonia</option>
+                            <option value="1">Zeus</option>
+                            <option value="1">Keops</option>
+                            <option value="1">Rodas</option>
+                            <option value="1">Artemis</option>
+                            <option value="1">Alejandria</option>
+                        </select>
+                        <br><br>
+                        <textarea name="sugerencia" id="txt-a" rows="5" cols="50" placeholder="Puedes escribirnos aqui..."></textarea>
+                        <br> <br>
+                        <input type="submit" name="enviar" value="SUSCRIBIME!" id="suscri" onclick="return validacion()">
+                        <br><br><br><br> <br><br>
+                    </form>    
+                </div>                
+            </div>
+        </div> <br>
+    </section>
+    <footer id="foter">
+        <div id="footer-bottom" class="containerr"> 
+            <div class="copyright">
+             <p>&copy La Octava Maravilla, San Luis, Argentina </p>  
+            </div>
+            
+            <nav id="footer-menu">
+                <ul>
+                    <li><a href="index.html">Inicio</a> </li>
+                    <li><a href="estilos.html">Estilos</a> </li>
+                    <li><a href="copacuyana.html">Copa Cuyana</a> </li>
+                    <li><a href="suscribite.html">Sucripcion</a> </li>
+                </ul>
+                </nav>
+            </div>
+        </footer>   
+</body>
+</html>

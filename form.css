@@ -1,0 +1,173 @@
+.formul{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;    
+    color: #FFFFFF;
+    width: 80%;
+    margin-left: 120px;
+    text-align: justify;
+    background-image: url(./img/7estilos2.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-style: outset;
+    border-color: aliceblue;
+}
+h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    margin-left: 60px;
+    width: 45%;
+    border-radius: 5px;
+    text-align: center;
+}
+h1:hover{
+    background-color:  rgba(138, 5, 5, 80%);
+    color: white;
+}
+.form:hover{
+    background-color:  rgba(138, 5, 5, 80%);
+    color: white;
+}
+.form{
+    background-color: rgba(10, 10, 10,50%);
+    width: 70%;
+    margin-left: 40px;
+    margin-top: 20px;
+    padding: 10px;
+    display: inline-block;
+}
+.titulos, .campos{
+    float: left;
+}
+.campos{
+    margin-left: 30px;
+    margin-top: 18px;
+    padding: 0;
+}
+.titulos{
+    line-height: 20px;
+    padding: 10px;
+    margin-top: 20px;
+}
+#nombre, #apellido, #edad, #celu, #mail, #slct, #slct2, #sBtn {
+    height: 30px;
+    margin: 4px;
+    padding: 0;
+}
+input:hover{
+    background-color: aliceblue;
+    color: black;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+#suscri{
+    background-color: rgba(138, 5, 5, 80%);
+    color: white;
+    padding: 15px;
+    font-family: monospace;
+    float: right;
+    border-style: outset;
+    border-radius: 10px;
+    font-weight: bold;
+}
+#suscri:hover{
+    background-color: black;
+    color: white;
+}
+.normal {
+    background-color: whitesmoke;
+    color: black;
+    border: 1px solid black;
+}
+
+.error {
+    background-color: black;
+    color: white;
+    border: 3px double white;
+}
+/* .piedepag{
+        font-family:monospace;        
+        font-size: 15px;
+        background-color: rgb(0, 0, 0);
+        color: white;
+        width: 100%;
+        text-align: left;
+        clear: both;
+}
+.pie{
+    display: flex;
+    float: left;
+    width: 33%;
+    background-color: black;
+}
+.de{
+    display: flex;
+    float: left;
+    width: 34%;
+    background-color: black;
+}
+.pagina{
+    display: flex;
+    float: left;
+    width: 33%;
+    background-color: black;
+} */
+
+#foter{
+    background-color: black;
+    padding: 2em 0;
+    color: white;
+    width: 100%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    clear: both;
+}
+    #foter p{
+        margin: 0 auto;
+        margin: 1.8125em 0;
+        margin-left: 30px;
+    }
+
+#footer-bottom{
+    display: table;
+}
+    #footer-bottom #footer-menu
+     {
+        display: table-cell;
+        vertical-align: top;
+        width: 33%;        
+    }
+    #footer-bottom .coypright {
+        display: table-cell;
+        vertical-align: top;
+        width: 67%;        
+    }
+
+    #footer-bottom #footer-menu ul {
+        margin: 1.8125em 0;
+        padding: 0;
+        list-style: none;
+        text-align: right; 
+    }
+    #footer-bottom #footer-menu li {
+       display: inline-block;
+       
+    }
+    #footer-bottom #footer-menu li::after {
+        content: "/";        
+     }
+     #footer-bottom #footer-menu li:last-child:after {
+        content: "";        
+     }
+     #footer-bottom #footer-menu li a {
+        color: #FFFFFF;    
+        display: inline-block;
+        padding: 0 1em;
+        text-decoration: none;
+        
+     }
+     #footer-bottom #footer-menu li a:hover {
+        color: rgba(138, 5, 5, 80%);        
+     }
